@@ -1,0 +1,49 @@
+/* Set background image and style */
+.login-page {
+    background-image: url('https://images.pexels.com/photos/1933239/pexels-photo-1933239.jpeg');
+ /* Correct path to the image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style the form container */
+  .form-card {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the card header */
+  .card-header {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Add styles for input fields */
+  .form-control {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Style buttons */
+  .btn {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
